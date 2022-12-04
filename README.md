@@ -39,3 +39,9 @@ cargo doc --open
 
 
 2. If the user types 5 and presses enter, guess looks like this: 5\n. The \n represents “newline”. (On Windows, pressing enter results in a carriage return and a newline, \r\n). The trim method eliminates \n or \r\n, resulting in just 5.
+
+3. Rust files always end with the .rs extension. If you’re using more than one word in your filename, the convention is to use an underscore to separate them
+
+4. Rust’s naming convention for constants is to use all uppercase with underscores between words.
+
+5. The tuple without any values has a special name, unit. This value and its corresponding type are both written () and represent an empty value or an empty return type. 
